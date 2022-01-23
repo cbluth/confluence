@@ -1,14 +1,14 @@
 module github.com/anacrolix/confluence
 
 require (
-	github.com/anacrolix/dht/v2 v2.14.0
+	github.com/anacrolix/dht/v2 v2.15.2-0.20220123034220-0538803801cb
 	github.com/anacrolix/envpprof v1.1.1
 	github.com/anacrolix/go-libutp v1.1.0
 	github.com/anacrolix/missinggo v1.3.0
 	github.com/anacrolix/missinggo/v2 v2.5.2
-	github.com/anacrolix/squirrel v0.2.1-0.20211119092713-2efaee06d169
+	github.com/anacrolix/squirrel v0.4.0
 	github.com/anacrolix/tagflag v1.3.0
-	github.com/anacrolix/torrent v1.39.1
+	github.com/anacrolix/torrent v1.40.1-0.20220123035931-52e793ff6d1d
 	github.com/arl/statsviz v0.4.0
 	github.com/prometheus/client_golang v1.11.0
 	golang.org/x/net v0.0.0-20210929193557-e81a3d93ecf6
@@ -17,14 +17,16 @@ require (
 
 require (
 	github.com/RoaringBitmap/roaring v0.9.4 // indirect
+	github.com/ajwerner/btree v0.0.0-20211201061316-91c8b66ad617 // indirect
 	github.com/anacrolix/chansync v0.3.0 // indirect
-	github.com/anacrolix/log v0.10.0 // indirect
+	github.com/anacrolix/generics v0.0.0-20220121083126-c81e77b56d6d // indirect
+	github.com/anacrolix/log v0.10.1-0.20220123034749-3920702c17f8 // indirect
 	github.com/anacrolix/missinggo/perf v1.0.0 // indirect
 	github.com/anacrolix/mmsg v1.0.0 // indirect
-	github.com/anacrolix/multiless v0.2.0 // indirect
+	github.com/anacrolix/multiless v0.2.1-0.20211218050420-533661eef5dc // indirect
 	github.com/anacrolix/stm v0.3.0 // indirect
 	github.com/anacrolix/sync v0.4.0 // indirect
-	github.com/anacrolix/upnp v0.1.2-0.20200416075019-5e9378ed1425 // indirect
+	github.com/anacrolix/upnp v0.1.3-0.20220123035249-922794e51c96 // indirect
 	github.com/anacrolix/utp v0.1.0 // indirect
 	github.com/benbjohnson/immutable v0.3.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -67,6 +69,7 @@ require (
 	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
 	github.com/rs/dnscache v0.0.0-20210201191234-295bba877686 // indirect
 	github.com/ryszard/goskiplist v0.0.0-20150312221310-2dfbae5fcf46 // indirect
+	github.com/tidwall/btree v0.7.2-0.20211211132910-4215444137fc // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
